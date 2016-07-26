@@ -1,0 +1,12 @@
+.output {
+  background-color: green;
+  width: 20%;
+  margin: auto;
+}
+
+.output p {
+  font-size: -webkit-xxx-large;
+  color: blue;
+  text-align: center;
+  transition: color 2s;
+}
