@@ -3,11 +3,6 @@ var augend = document.querySelector("#number1");
 var addend = document.querySelector("#number2");
 
 
-/* function sum(augend, addend) {
-  var result = +augend + +addend;
-  return(result);
-} */
-
 var calculate = document.querySelector("button")
 
 
@@ -22,16 +17,3 @@ calculate.addEventListener("click", function(event){
   var answer = document.querySelector(".output");
   answer.appendChild(newItem);
 });
-
-/*
-item.addEventListener("click", function(event){
-  var clickedItem = event.target;
-  var text = clickedItem.innerText;
-  var newItem = document.createElement("li");
-  newItem.innerText = text;
-  var list = document.querySelector("#list ul");
-  list.appendChild(newItem);
-});
-*/
-//var login = document.querySelector("#login");
-//console.log(login.value);

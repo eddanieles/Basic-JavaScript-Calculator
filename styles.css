@@ -1,12 +1,13 @@
 .output {
-  background-color: green;
+//  background-color: yellow;
   width: 20%;
   margin: auto;
+  border-radius: 100%;
+//  color: blue;
 }
 
 .output p {
   font-size: -webkit-xxx-large;
-  color: blue;
   text-align: center;
-  transition: color 2s;
+
 }
