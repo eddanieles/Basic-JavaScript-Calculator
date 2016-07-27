@@ -1,13 +1,13 @@
+div {
+  position: relative;
+}
+
+
 .output {
   width: 80%;
   margin: auto;
-
-}
-
-.output p {
   font-size: 200px;
   text-align: center;
   height: 500px;
   border-radius: 100%;
-  margin-top: 0px;
 }
